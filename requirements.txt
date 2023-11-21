@@ -1,0 +1,9 @@
+grpcio==1.37.0
+grpcio-tools==1.37.0
+unified-planning==1.0.0
+justpy
+matplotlib
+networkx
+plotly
+pygraphviz
+scipy
