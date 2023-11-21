@@ -1,6 +1,12 @@
 from functools import partial
-import re
-# TODO Add the cost field to add_connection and the min_cost and max_cost to randomize_graph and then use the costs in the Problem creation.
+# Description of the component saved here.
+# This is the travelling-costs component. It allows the user to create a map with distances between the locations.
+
+# After the user is satisfied with the created map and has set the starting point and the destination he can click NAVIGATE the map and the best route from the start to the end will be highlighted.
+
+# Under the hood the component creates a unified-planning Problem and sends it to another component to be solved; then displays (both graphically and textually) the returned plan with the associated total distance.
+
+
 import justpy as jp
 
 from gui import Gui, Mode
